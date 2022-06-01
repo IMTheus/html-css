@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+
+<style>
+
+/*
+    #  = ID
+    .  = CLASS
+    :  = PSEUDO-CLASS
+    :: = PSEUDO-ELEMENT
+    >  = CHILDREN
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: lightblue;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:visited{
+    color: lightcoral;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+a::before{
+    content: '⇒';
+}
+
+
+
+A::after{
+ content: '⇐';
+}
+
+</style>
+
+
+
+</head>
+<body>
+    
+<h1>links personalizados</h1>
+
+<ul>
+    <li><a href="http://youtube.com/canalcanalha/">canal canalha</a></li>
+    <li><a href="https://www.americanas.com.br/">americanas</a></li>
+    <li><a href="https://amazon.com">Amazon</a></li>
+</ul>
+
+<h3>para mostrar que o link já foi visistado e escolher a cor,basta add (A:VISITED{COLOR} para a cor) <br>
+
+para mostrar uma cor em cima do seu link após clicar,basta add (A:ACTIVE{COLOR} para a cor) <br>
+
+para mostrar algo antes ou depois do link  de maneira personalizada basta add a tag (A::AFTER{CONTENT'PALAVRA'} AFTER= DEPOIS e CONTENT=CONTEUDO) <br>
+
+para add algo depois add (A::BEFORE{CONTENT'PALAVRA'} BEFORE=ANTES e CONTENT=CONTEUDO).</h3>
+
+</body>
+</html>

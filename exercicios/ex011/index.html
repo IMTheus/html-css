@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+ <h1>Imagens dinamicas</h1>
+
+ <p>Tente abri esse site em varios dispositivos ou aumentar e diminuir a miagem em seu navegador</p>
+
+   <picture>
+     <source media="(max-width: 750px)" srcset="IMAGENS/PEQUENO.png" type="image/png">
+     <source media="(max-width: 1000px)" srcset="IMAGENS/MEDIO.png" type="image/png">
+     <img src="iMAGENS/GRANDE.png" alt="Imagem flexível">
+     
+       <h2>Resumo</h2>
+       <p>Para colocaruma imagem flexicivel em um site que se adapte em qualquer navegador,Primeiro coloque as medidas <br>300 é pqueno para celular <br>700 é médio para tablets <br>1000 é para o computador
+       <p>Para add as imagens,basta add a TAG PICTURE e dentro dela add a TAG IMG selecionar as TECLAS CTRL-SPACE selecionar a imagem e no ALT add IMAGEM FLEXÍVEL em cima disso tudo add a TAG SOURCE-MEDIA-TYPE,dentro da MEDIA add MAX e o Tamanho da imagem, em SRCSET add o nome da imagem e em TYPE o formato dela EX(PNG) </p>
+   </picture>
+
+<h1>Reproduzindo audios </h1>
+<p>Reproduzindo audio em sites HTML5</p>
+
+<audio src="media audio/audio.site.mp3" controls autoplay></audio>
+<p>Maneiras de add um audio é add a TAG AUDIO e dentro de SRC add CTRL+SPACE e selecionar seu Audio e add depois das aspas e antes da TAG final AUDIO, CONTROLS AUTOPLAY</p>
+
+</body>
+</html>

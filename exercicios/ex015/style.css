@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-color: rgb(230, 207, 200);
+    font-family: Arial, Helvetica, sans-serif;       
+ }
+  h1{
+    color: darkorchid;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  h2{
+    color: darkgreen;  
+    font-size: medium;
+  }

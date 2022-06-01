@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos em HTML5</title>
+</head>
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+
+    <p>Este video está hospedado em meu proprio servidor</p>
+    <video src="midia/meu-video.mp4" width="500"controls></video>
+    <p>Para inserir um video basta add a TAG VIDEO,dentro de SRC add a CTRL-SPACE e selecionar seu video. Para add o tamanho,depois das ASPAS add WIDTH e selecione o tamanho(ex 500) e para dar play add CONTROLS</p>
+
+<H1>Outro modo de add video</H1>
+
+<video width="500" poster="imagens/pexels-andrew-neel-3166835.jpg" controls>
+    <source src="midia/meu-video.mp4" type="video/mp4">   
+</video>
+
+<p>outra forma de add ér abrir a TAG VIDEO e dentro dela CONTROLS em seguida add SOURCE SRC e add em SRC o video e em TYPE o formato do video(ex OGG,MP4 WEBM) esse é o modo mais adequado,pois se um nao for pode add outro oara abrir no navegar.</p>
+
+<h3>OBS: Esse tipo de video fica hospedado em seu site,assim consumindo muito dependendo de quantas pessoas acessam ele(para manter um site no ar é pago e os downloads do video gasta parte do seu plano. <br>EX 11.000 KB equivale a 11MB 
+,com 1000 pessoas acessando da ao equivalente a 11GB o que é muito.</h3>
+
+<h1>Inserindo videos do YouTube(videos externos)</h1>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/sVx1mJDeUjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/Az-mGR-CehY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>para inserir videos no seu site do YouTube,basta selecionar o video no YouTube,clicar em compartilhar e ir em "incorporar",copiar o link e colar o link </h3>

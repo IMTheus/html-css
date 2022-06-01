@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+
+    <style>
+ body{
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+div:hover{
+    color:darkcyan;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+}
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1>exemplo de hover</h1>
+
+    <p>Passe o nouse no texto abaixo</p>
+
+    <div>passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+<p>fim do exemplo</p>
+
+<h3>Para criar uma DIVI é apenas usar a tag DIVI e isso e nada mais que um espaço qualquer.
+</h3>
+
+<h3>agora o famso DOIS PONTOS ":" é uma PSEUDO CLASSE são ligadas a uma classe ou eleemento</h3>
+
+<h3>HOVER é usado no seguimento do 2 pontos, ele serve para marcar uma cor quando passa em cima da palavra</h3>
+<p>EX: div:hover e seleciona a cor ou sla</p>
+
+<h3>em uma DIVI da pra selecionar um PARAGRAFO (P), com isso ocultar um texto e so mostrar quando passar o mouse em cima,geralmente usado em MENUS. </h3>
+<p>EX: DIVI (>) (ESSE SIMBOLO É REPRESENTADO COMO UM FILHO) depois vem o P e {} <br> EX: DIVI > P { DISPLAY NONE} <br> depois DIVI: HOVER > P {DISPLAY BLOCK} </p> 
