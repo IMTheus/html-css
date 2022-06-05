@@ -6,8 +6,8 @@
 
 :root {
     --font1:Verdana, Geneva, Tahoma, sans-serif;
-    --font2: 'Passion One', cursiva;
-    --font3: 'Sriracha', cursiva;
+    --font2: 'Passion One';
+    --font3: 'Sriracha';
 }
 
 * {
@@ -37,7 +37,7 @@ header > p {
     padding-bottom: 50px;
 }
 
-a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight:bolder
@@ -67,7 +67,7 @@ a {
     }
 
     section.imagem {
-        background-color: rgba(0, 0, 0, 0.048);
+        background-color: rgba(51, 51, 51,);
         color: white;
         box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
         background-size: cover;
@@ -76,8 +76,8 @@ a {
 
     section.imagem > p {
         display: inline-block;
-        padding:5px;
-        background-color: rgba(0, 0, 0, 0.377);
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.515);
         text-shadow: 1px 1px 0px black;
     }
 
