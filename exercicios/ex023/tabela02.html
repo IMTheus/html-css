@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1. 5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
+        }
+
+        thead, tfoot {
+            background-color: lightslategray;
+            color: black;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: lightslategray;
+        }
+
+        tbody > tr:nth-child(odd)  {
+            background-color: white;
+            /*ood= par*/
+        }
+
+        tbody > tr:nth-child(even)  {
+            background-color: lightblue;
+            /*EVEN= PAR*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+             THEAD
+                  TR, TD, TH
+             TBODY
+                  TR, TD, TH
+             TFOOT
+                  TR, TD, TH
+    -->
+
+    <table>
+        <caption>Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>Populão</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>17 265 943</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>14 865 890</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>18 875 890</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>4 865 890</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>10 995 880</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>14 865 890</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>9 899 870</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>3 833 890</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>6 655 880</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>1 865 890</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td>0000</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
